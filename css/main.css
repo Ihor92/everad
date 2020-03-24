@@ -1,0 +1,65 @@
+@import "main-screen.css";
+@import "form.css";
+@import "descriptionOfSymptoms.css";
+@import "creamPantoflex.css";
+@import "drugComponents.css";
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
+
+
+:root {
+  /* Font */
+  --font-robot: 'Roboto', sans-serif;
+  --font-bold: 700;
+  --font-medium: 500;
+  --font-regular: 400;
+
+  /* Genearl color */
+  --content-width: 1170px;
+
+  /* First screen */
+  --title-h1: #3b3944;
+  --title-h3: #4b69b0;
+  --lists: #3b3944;
+
+  /* Form */
+  --form-title: #5774b8;
+  --old-prace__label: #737e96;
+  --new-price__label: #30302f;
+  --new-place__label: #3e3e3d;
+  --placeholder-form: #a6aebb;
+  --border-input: #abbad7;
+  --new-cost: #36bde3;
+
+  /* Description Of Symptoms */
+  --symptoms-title: #2e2c35;
+  --title-warning: #f56856;
+  --symptoms-list-title: #2e2c35;
+  --symptoms__list-text: #7e7c89;
+
+  /* Cream */
+  --cream-title-color: #5774b8;
+
+  /* Composition */
+  --composition-text: #8e8c95;
+  --composition-title-border: #e0e9ee;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.mainScreen__wrap,
+.descripSymptoms__wrap,
+.creamPantoflex__wrap,
+.drugComponents__wrap {
+  background-repeat: no-repeat;
+  max-width: var(--content-width);
+  margin: 0 auto;
+}
+
+.wrapper {
+  margin: 0 30px;
+}

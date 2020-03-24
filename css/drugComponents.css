@@ -1,0 +1,60 @@
+.drugComponents {
+  width: 100%;
+  height: 1000px;
+}
+
+.drugComponents__wrap {
+  height: 100%;
+  display: flex;
+}
+
+.drugComponents__wrapper {
+  display: flex;
+}
+
+.drugComponents__block-title {
+  background-image: url(../img/bg-graphics.png);
+  background-repeat: no-repeat;
+  background-position: 0% 60%;
+  width: 50%;
+  height: 100%;
+}
+
+.drugComponents__title {
+  margin: 0;
+  font-family: var(--font-robot);
+  font-weight: var(--font-bold);
+  font-size: 51px;
+  color: var(--symptoms-list-title);
+}
+
+.composition {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.composition__component {
+  max-width: 232px;
+}
+
+.composition__title {
+  margin: 0;
+  font-family: var(--font-robot);
+  font-weight: var(--font-bold);
+  font-size: 24px;
+  color: var(--symptoms-list-title);
+  border-bottom: 3px solid var(--composition-title-border);
+  padding-bottom: 15px;
+}
+
+
+
+.composition__text {
+  font-family: var(--font-robot);
+  font-weight: var(--font-regular);
+  font-size: 18px;
+  color: var(--composition-text);
+  margin-top: 35px;
+}

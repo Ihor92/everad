@@ -1,0 +1,36 @@
+.creamPantoflex {
+  background-image: url(../img/bg-cream-pantoflex.png);
+  width: 100%;
+  height: 340px;
+  margin-bottom: 180px;
+}
+
+.creamPantoflex__wrap {
+  background-image: url(../img/drug-packaging.png);
+  background-position: 100% 10%;
+  height: 500px;
+}
+
+.creamPantoflex__title {
+  /* width: 470px; */
+  font-size: 60px;
+  font-family: var(--font-robot);
+  font-weight: var(--font-bold);
+  margin: 0;
+  padding-top: 40px;
+  color: var(--lists);
+}
+
+.pantoflex__title {
+  color: var(--cream-title-color);
+}
+
+.creamPantoflex__text {
+  width: 350px;
+  margin: 0;
+  padding-top: 35px;
+}
+
+.creamPantoflex__submit {
+  margin-top: 50px;
+}

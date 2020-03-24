@@ -1,0 +1,219 @@
+/* Main screen */
+@media(max-width: 1200px) {
+  .mainScreen__wrap {
+    background: none;
+  }
+
+  .description__h1 {
+    font-size: 50px;
+  }
+
+  .header__navbar {
+    width: 50%;
+  }
+}
+
+@media(max-width: 1090px) {
+  /* Description Symptoms */
+  .creamPantoflex__wrap {
+    background: none;
+  }
+
+  .creamPantoflex__title {
+    margin: 0 auto;
+    font-size: 50px;
+    text-align: center;
+  }
+
+  .creamPantoflex__text {
+    width: 100%;
+    text-align: center;
+  }
+
+  .creamPantoflex__submit {
+    margin: 50px auto 0;
+    display: block;
+  }
+
+  .br {
+    display: none;
+  }
+  
+  /* Cream Pantoflex */
+  .descripSymptoms {
+    margin-bottom: 20px;
+  }
+
+
+  .creamPantoflex {
+    margin-bottom: 120px;
+  }
+
+  .descripSymptoms__wrap {
+    background: none;
+  }
+
+  .drugComponents__block-title {
+    background: none;
+  }
+
+  .drugComponents__wrapper {
+    display: block;
+  }
+
+  .drugComponents__block-title {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    height: auto;
+  }
+
+  .composition {
+    width: 100%;
+    margin-top: 80px;
+  }
+  
+  .composition__component {
+    max-width: 50%;
+  }
+
+  .composition__title,
+  .composition__text {
+    max-width: 70%;
+  }
+
+  .composition__text {
+    margin: 30px auto 0;
+  }
+
+  .drugComponents__title {
+    font-size: 39px;
+  }
+
+}
+
+@media(max-width: 840px) {
+  .form {
+    display: none;
+  }
+
+  .header__navbar {
+    display: none;
+  }
+
+  .descripSymptoms__title,
+  .creamPantoflex__title {
+    font-size: 39px;
+  }
+  
+  .composition {
+    display: block;
+  }
+
+  .composition__img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .composition__component {
+    max-width: 70%;
+    margin: 0 auto 70px;
+  }
+}
+
+@media(max-width: 560px) {
+  .submit {
+    font-size: 20px;
+    height: 60px;
+  }
+
+  .submit__discount {
+    font-size: 16px;
+  }
+
+  /* Main screen */
+  .description__h1 {
+    font-size: 26px;
+  }
+  
+  .description__h3 {
+    font-size: 20px;
+  }
+
+  .description__list-item {
+    font-size: 16px;
+  }
+
+  .description__list-item::before {
+    width: 15px;
+    height: 15px;
+  }
+
+  .header__img {
+    width: 140px;
+  }
+
+  .mainScreen {
+    height: auto;
+    margin-bottom: 30px;
+  }
+
+  .mainScreen__wrap {
+    height: auto;
+  }
+
+  /* Description Symptoms */
+  .descripSymptoms__wrap {
+    height: auto;
+  }
+
+  .descripSymptoms__title {
+    margin-bottom: 20px;
+  }
+
+  .descripSymptoms__list-itemConclusion {
+    margin-top: 50px;
+  }
+
+  .descripSymptoms__list-img {
+    display: none;
+  }
+
+  .descripSymptoms__list-block {
+    padding: 0;
+  }
+  .descripSymptoms__title,
+  .creamPantoflex__title,
+  .drugComponents__title {
+    font-size: 20px;
+  }
+
+  .descripSymptoms__list-item {
+    margin-top: 30px;
+  }
+
+  .descripSymptoms__list-title {
+    font-size: 20px;
+  }
+  
+  .descripSymptoms__list-text {
+    font-size: 16px;
+  }
+
+  .composition__text,
+  .composition__component {
+    max-width: 100%;
+  }
+
+  /* Cream Pantoflex */
+  .creamPantoflex {
+    margin-bottom: 50px;
+    height: auto;
+    padding-bottom: 40px;
+  }
+
+  .creamPantoflex__wrap {
+    height: auto;
+  }
+  
+}
