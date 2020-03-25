@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="./css/media.css">
 </head>
 <body>
+  
   <main class="mainScreen">
     <div class="mainScreen__wrap">
       <div class="wrapper">
@@ -18,11 +19,35 @@
 
           <nav class="header__navbar">
             <ul class="header__list">
-              <li class="header__list-item">Отзывы</li>
-              <li class="header__list-item">Состав</li>
-              <li class="header__list-item">Оплата и доставка</li>
+              <li>
+                <a class="header__list-item" href="#">Отзывы</a>
+              </li>
+              <li>
+                <a class="header__list-item" href="#">Состав</a>
+              </li>
+              <li>
+                <a class="header__list-item" href="#">Оплата и доставка</a>
+              </li>
             </ul>
           </nav>
+
+          <div class="navbarModile__wrap " id="navbarModile__wrap">
+            <nav class="navbarModile" id="navbarModile">
+              <ul class="navbarModile__list">
+                <li class="navbarModile__list-item">
+                  <a class="navbarModile__list-link" href="#">Отзывы</a>
+                </li>
+                <li class="navbarModile__list-item">
+                  <a class="navbarModile__list-link" href="#">Состав</a>
+                </li>
+                <li class="navbarModile__list-item">
+                  <a class="navbarModile__list-link" href="#">Оплата и доставка</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+
+          <button class="hearder__burger" id="btn_burger">—</button>
         </header>
 
         <div class="content">
@@ -164,5 +189,6 @@
       </div>
     </div>
   </section>
+  <script src="./js/index.js"></script>
 </body>
 </html>

@@ -11,36 +11,6 @@
   height: 100vh;
 }
 
-.header {
-  display: flex;
-  justify-content: space-between;
-}
-
-.header__logo {
-  margin: 0;
-}
-
-.header__navbar {
-  width:35%;
-}
-
-.header__list {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 25px;
-  list-style: none;
-  color: var(--lists);
-  padding: 0;
-}
-
-.header__list-item {
-  border-bottom: 1px dotted var(--lists);
-  font-family: var(--font-robot);
-  font-weight: var(--font-regular);
-  font-size: 18px;
-  margin: 0 10px;
-}
-
 .content {
   display: flex;
   justify-content: space-between;

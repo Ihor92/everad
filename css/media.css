@@ -89,7 +89,6 @@
   .drugComponents__title {
     font-size: 39px;
   }
-
 }
 
 @media(max-width: 840px) {
@@ -97,8 +96,16 @@
     display: none;
   }
 
-  .header__navbar {
+  .header__list {
     display: none;
+  }
+
+  .hearder__burger {
+    display: block;
+  }
+
+  .navbarModile__wrap {
+    display: block;
   }
 
   .descripSymptoms__title,
